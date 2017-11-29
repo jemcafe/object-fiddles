@@ -8,169 +8,190 @@
 
   //Code here
 
-
-
-
-
-
-//NEXT PROBLEM
-
-
-
-
-//Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
-
-  //Code here
-
-
-
-
-
-
-
-//After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
-
-  //Code here
-
-
-
-
-
-//Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-
-  //Code here
-
-
-
-
-
-//NEXT PROBLEM
-
-
-
-/* 
-Create an empty Object called backPack. Now, create a variable called 'item'
-and set it equal to the string 'firstPocket'. Using bracket notation,
-add a 'firstPocket' key (or property) to backPack, using 'item'.
-Set the value of that key to 'chapstick'.
-
-Using dot notation, add another key (or property) to your backPack object
-that is named color, with the value being the color of your backpack. 
-*/
-
-  //Code here
-
-
-
-
-
-
-//After you do the above, alert your entire backPack object.
-
-  //Code here
-
- 
-
-/*
-You probably noticed that it just alerted [object Object].
-Alerting to see the data in your Object doesn't work so well.
-Instead, console.log your whole backPack object and then check out the console. 
-*/
-
-  //Code here
-
-
-
-
-
-//NEXT PROBLEM
-
-
-
-
-var user2 = {
-        name: 'Ty',
-        age: 24,
-        pwHash: 'U+Ldlngx2BYQk',
-        email: 'ty33@gmail.com',
-        birthday: '05/02/1990',
-        username: 'tylermcginnis33'
-};
-//Let's say I, the user, decided to change my name and email address to the following
-// name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
-
-  //Code Here
-
-
-
-
-
-// =============================================
-// =============================================
-// EXTRA PRACTICE PROBLEMS BELOW
-// =============================================
-// =============================================
-
-
-
-
-
-
-//NEXT PROBLEM
-
-
-//Create an empty object called methodCollection.
-
-  //Code Here
-
-
-
-
-/*
-Now add two methods (functions that are properties on objects) to your methodCollection
-object. One called 'alertHello' which alerts 'hello' and another method called logHello
- which logs 'hello' to the console. 
- */
-
-  //Code Here
-
-
-
-
-
-//Now call your alertHello and logHello methods.
-
-  //Code Here
-
-
-
-
-
-
-
-
-//NEXT PROBLEM
-
-
-
-// Create a function called makePerson which takes in name, birthday, ssn as its
-// parameters and returns a new object with all of the information that you passed in.
-
-  //Code Here
-
-
-
-
-
+  let me = {
+    name: 'Jemaine',
+    age: 26,
+  }
+  alert( me.name );
   
-
-
-//NEXT PROBLEM
-
-
-
-// Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
-
-  //Code Here
-
-
+  
+  
+  
+  //NEXT PROBLEM
+  
+  
+  
+  
+  //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
+  
+    //Code here
+  
+  let favoriteThings = {
+    band: 'Vanilla',
+    food: 'crab',
+    person: 'Don\'t know',
+    book: 'Wayside School',
+    movie: 'Harry Potter',
+    holiday: 'Halloween'
+  }
+  
+  //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
+  
+    //Code here
+  
+  favoriteThings.car = 'Chevy'
+  favoriteThings.brand = 'Camaro'
+  
+  
+  
+  //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+  
+    //Code here
+  
+    favoriteThings.food = 'Chicken Nuggets'
+    favoriteThings.book = 'Harry Potter'
+  
+  
+  
+  //NEXT PROBLEM
+  
+  
+  
+  /* 
+  Create an empty Object called backPack. Now, create a variable called 'item'
+  and set it equal to the string 'firstPocket'. Using bracket notation,
+  add a 'firstPocket' key (or property) to backPack, using 'item'.
+  Set the value of that key to 'chapstick'.
+  
+  Using dot notation, add another key (or property) to your backPack object
+  that is named color, with the value being the color of your backpack. 
+  */
+  
+    //Code here
+  let backPack = {};
+  
+  let item = 'firstPocket';
+  
+  backPack[item] = 'chapstick';
+  
+  
+  
+  //After you do the above, alert your entire backPack object.
+  
+    //Code here
+    alert( backpack );
+   
+  
+  /*
+  You probably noticed that it just alerted [object Object].
+  Alerting to see the data in your Object doesn't work so well.
+  Instead, console.log your whole backPack object and then check out the console. 
+  */
+  
+    //Code here
+    console.log( backpack );
+  
+  
+  
+  
+  //NEXT PROBLEM
+  
+  
+  
+  
+  let user2 = {
+          name: 'Ty',
+          age: 24,
+          pwHash: 'U+Ldlngx2BYQk',
+          email: 'ty33@gmail.com',
+          birthday: '05/02/1990',
+          username: 'tylermcginnis33'
+  };
+  //Let's say I, the user, decided to change my name and email address to the following
+  // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
+  
+    //Code Here
+  user2.name = 'Tyler S. McGinnis';
+  user2.email = 'tyler.mcginnis@devmounta.in';
+  
+  
+  
+  // =============================================
+  // =============================================
+  // EXTRA PRACTICE PROBLEMS BELOW
+  // =============================================
+  // =============================================
+  
+  
+  
+  
+  
+  
+  //NEXT PROBLEM
+  
+  
+  //Create an empty object called methodCollection.
+  
+    //Code Here
+  let methodCollection = {};
+  
+  /*
+  Now add two methods (functions that are properties on objects) to your methodCollection
+  object. One called 'alertHello' which alerts 'hello' and another method called logHello
+   which logs 'hello' to the console. 
+   */
+  
+    //Code Here
+    methodCollection.alertHello = function () { alert('hello') };
+    methodCollection.logHello = function () { console.log('hello') };
+  
+  
+  
+  //Now call your alertHello and logHello methods.
+  
+    //Code Here
+    methodCollection.alertHello();
+    methodCollection.logHello();
+  
+  
+  
+  
+  
+  //NEXT PROBLEM
+  
+  
+  
+  // Create a function called makePerson which takes in name, birthday, ssn as its
+  // parameters and returns a new object with all of the information that you passed in.
+  
+    //Code Here
+    function makePerson ( name, birthday, ssn ) {
+      let newObj =  {
+        name: name,
+        birthday: birthday,
+        ssn: ssn
+      };
+      return newObj;
+    }
+  
+  
+  
+  
+    
+  
+  
+  //NEXT PROBLEM
+  
+  
+  
+  // Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
+  
+    //Code Here
+     function makeCard ( cardNumber, expirationDate, securityCode )  {
+        let card = {
+          cardnumber: cardNumber,
+          expirationDate: expirationDate,
+          securityCode: securityCode
+        }
+        return card;
+     }
