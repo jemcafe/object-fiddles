@@ -12,7 +12,7 @@
     name: 'Jemaine',
     age: 26,
   }
-  alert( me.name );
+  //alert( me.name );
   
   
   
@@ -79,7 +79,7 @@
   //After you do the above, alert your entire backPack object.
   
     //Code here
-    alert( backpack );
+    //alert( backpack );
    
   
   /*
@@ -89,7 +89,7 @@
   */
   
     //Code here
-    console.log( backpack );
+    //console.log( backpack );
   
   
   
@@ -150,7 +150,7 @@
   //Now call your alertHello and logHello methods.
   
     //Code Here
-    methodCollection.alertHello();
+    //methodCollection.alertHello();
     methodCollection.logHello();
   
   
